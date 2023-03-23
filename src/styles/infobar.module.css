@@ -1,0 +1,432 @@
+/* .container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+
+
+.timeline {
+    grid-area: 1 / 1 / 2 / 5;
+}
+
+.sidebar {
+    grid-area: 1 / 5 / 6 / 6 ;
+}
+
+.content {
+    grid-area: 2 / 1 / 6 / 5;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 36px;
+    padding-right: 77px;
+
+}
+
+
+.timeline {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 14px;
+
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    border-color: #EFEFEF;
+    padding: 50px 76px 50px 15px;
+    height: 121px;
+
+}
+
+.timeline a {
+    font-family: 'Effra CC Arbc';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #333333;
+}
+
+.prfcontainer {
+    display: flex;
+    gap: 20px;
+    padding: 0px 0 0 63px;
+    border-style: solid;
+    border-width: 0px 0px 2px 2px;
+    border-color: #EFEFEF;
+    padding: 38px 46px;
+    height: 121px;
+}
+
+.infos {
+    text-align: right;
+}
+
+.infos p {
+    font-family: 'Effra CC Arbc';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+
+    color: #333333;
+}
+
+.infos h3 {
+    font-family: 'Effra CC Arbc';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+
+    color: #333333;
+}
+
+
+.sidebar_items_container{
+    padding-top: 64px;
+
+    border-style: solid;
+    border-width: 0px 0px 0px 2px;
+    border-color: #EFEFEF;
+    padding: 38px 46px 0px;
+    height: 100%;
+}
+
+.sidebar_items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+
+    font-family: 'Effra CC Arbc';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: right;
+    color: #353535;
+
+    
+
+
+}
+
+.sidebar_items div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.content h2 {
+    font-family: 'Effra CC Arbc';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 31px;
+    line-height: 37px;
+    background: linear-gradient(90deg, #FD1680 0%, #AC14C1 50%, #3121F5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.cards div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.cards div p{
+    font-family: 'Effra CC Arbc';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #393939;
+    margin-top: 27px;
+
+}
+
+.cards .card_child_1 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    gap: 10px;
+
+    background: linear-gradient(180deg, #4740FF 0%, #0201B7 100%);
+    border-radius: 20px;
+
+}
+
+.cards .card_child_2 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    gap: 10px;
+
+    width: 224px;
+    height: 224px;
+
+
+    background: linear-gradient(180deg, #FF544D 0%, #FF963A 48.23%, #FC4404 100%);
+    border-radius: 20px;
+
+}
+
+.cards .card_child_3 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    gap: 10px;
+
+    width: 224px;
+    height: 224px;
+
+
+    background: linear-gradient(180deg, #00D18F 0%, #40FA84 100%);
+    border-radius: 20px;
+
+}
+
+*/
+
+
+.container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #ffffff;
+    height: 90vh;
+    
+}   
+
+.left_content{
+    flex-basis: 80%;
+    height: 100%;
+    border-style: solid;
+    border-width: 0px 2px 0px 0px;
+    border-color: #EFEFEF;
+}
+
+
+.content {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 36px;
+    padding-right: 77px;
+    padding-top: 64px;
+
+}
+
+
+.timeline {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 14px;
+
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    border-color: #EFEFEF;
+    padding: 50px 76px 50px 15px;
+    height: 121px;
+
+}
+
+.timeline a {
+    font-family: 'Effra CC Arbc';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #333333;
+}
+
+.prfcontainer {
+    display: flex;
+    gap: 20px;
+    padding: 0px 0 0 63px;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    border-color: #EFEFEF;
+    padding: 38px 46px;
+    height: 121px;
+}
+
+.infos {
+    text-align: right;
+}
+
+.infos p {
+    font-family: 'Effra CC Arbc';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+
+    color: #333333;
+}
+
+.infos h3 {
+    font-family: 'Effra CC Arbc';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+
+    color: #333333;
+}
+
+
+.sidebar_items_container{
+    padding-top: 64px;
+    padding: 38px 46px 0px;
+}
+
+.sidebar_items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 45px;
+
+    font-family: 'Effra CC Arbc';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: right;
+    color: #353535;
+
+
+
+}
+
+.sidebar_items div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.content h2 {
+    font-family: 'Effra CC Arbc';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 31px;
+    line-height: 37px;
+    background: linear-gradient(90deg, #FD1680 0%, #AC14C1 50%, #3121F5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.cards div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.cards div p{
+    font-family: 'Effra CC Arbc';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #393939;
+    margin-top: 27px;
+
+}
+
+.cards .card_child_1 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    gap: 10px;
+
+    background: linear-gradient(180deg, #4740FF 0%, #0201B7 100%);
+    border-radius: 20px;
+
+}
+
+.cards .card_child_2 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    gap: 10px;
+
+    width: 224px;
+    height: 224px;
+
+
+    background: linear-gradient(180deg, #FF544D 0%, #FF963A 48.23%, #FC4404 100%);
+    border-radius: 20px;
+
+}
+
+.cards .card_child_3 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    gap: 10px;
+    width: 224px;
+    height: 224px;
+    background: linear-gradient(180deg, #00D18F 0%, #40FA84 100%);
+    border-radius: 20px;
+
+}
